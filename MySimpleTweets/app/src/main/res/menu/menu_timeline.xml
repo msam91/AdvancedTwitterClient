@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.apps.mysimpletweets.Activities.TimelineActivity">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_tweet"
+        android:onClick="onComposeAction"
+        app:showAsAction="ifRoom"
+        android:title="Compose">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_newuser"
+        android:onClick="onProfileView"
+        app:showAsAction="ifRoom"
+        android:title="Compose"
+        >
+    </item>
+</menu>
